@@ -14,7 +14,6 @@ nmap <leader>w :w!<cr>
 " buffer-related
 nmap <leader>bd :Bclose<cr>
 nmap <leader>bl :buffers<cr>
-noremap <silent> <Right> :bnext<cr>
 
 " use ctrl-a/ctrl-e to jump to beginning/end of line in insert mode
 inoremap <C-a> <C-o>0
@@ -37,4 +36,3 @@ function! ToggleMaxWins()
 endif
 endfunction
 nnoremap <silent> <Leader><Leader> :call ToggleMaxWins()<CR>
-
