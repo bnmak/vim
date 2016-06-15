@@ -12,8 +12,8 @@ noremap <Right> <NOP>
 nmap <leader>w :w!<cr>
 
 " buffer-related
-nmap <leader>bd :Bclose<cr>
-nmap <leader>bl :buffers<cr>
+nmap <silent> <leader>bd :Bclose<cr>
+nmap <silent> <leader>bl :buffers<cr>
 
 " use ctrl-a/ctrl-e to jump to beginning/end of line in insert mode
 inoremap <C-a> <C-o>0
