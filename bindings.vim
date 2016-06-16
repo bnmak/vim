@@ -36,3 +36,7 @@ function! ToggleMaxWins()
 endif
 endfunction
 nnoremap <silent> <Leader><Leader> :call ToggleMaxWins()<CR>
+
+" Enter blank line above/below while in insert mode
+nmap <F8> o<Esc>
+nmap <F9> O<Esc>
