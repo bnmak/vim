@@ -42,4 +42,4 @@ nmap <F8> o<Esc>
 nmap <F9> O<Esc>
 
 " VimShell
-noremap <silent> <Leader>vs :VimShell<CR>
+noremap <silent> <Leader>vs :VimShellPop<CR>
