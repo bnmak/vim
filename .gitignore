@@ -7,4 +7,4 @@
 # But not these things
 !.gitignore
 !*.vim
-!plugin/*
+!plugin
