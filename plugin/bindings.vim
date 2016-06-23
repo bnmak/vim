@@ -11,10 +11,6 @@ noremap <Right> <NOP>
 " save faster
 nmap <leader>w :w!<cr>
 
-" buffer-related
-nmap <silent> <leader>bd :Bclose<cr>
-nmap <silent> <leader>bl :buffers<cr>
-
 " use ctrl-a/ctrl-e to jump to beginning/end of line in insert mode
 inoremap <C-a> <C-o>0
 inoremap <C-e> <C-o>$
@@ -43,3 +39,16 @@ nmap <F9> O<Esc>
 
 " VimShell
 noremap <silent> <Leader>vs :VimShellPop<CR>
+
+" buffer-related
+nmap <silent> <leader>bd :Bclose<cr>
+
+" new empty buffer
+nmap <leader>T :enew<cr>
+
+" move to the next/previous buffer
+nmap <leader>l :bnext<CR>
+nmap <leader>h :bprevious<CR>
+
+" close the current buffer and move to the previous one
+nmap <leader>bq :bp <BAR> bd #<CR>
