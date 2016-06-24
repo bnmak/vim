@@ -8,6 +8,14 @@ noremap <Down>  <NOP>
 noremap <Left>  <NOP>
 noremap <Right> <NOP>
 
+" map cursor move in insert mode
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
+
+" move cursor easier
+nmap <leader>e $
+nmap <leader>a ^
+
 " save faster
 nmap <leader>w :w!<cr>
 
