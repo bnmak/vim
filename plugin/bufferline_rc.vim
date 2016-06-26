@@ -1,0 +1,1 @@
+../config/bufferline_rc.vim

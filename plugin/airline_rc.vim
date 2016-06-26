@@ -1,0 +1,1 @@
+../config/airline_rc.vim

@@ -1,0 +1,1 @@
+../config/syntastic_rc.vim

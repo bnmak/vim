@@ -1,0 +1,1 @@
+../config/buffergator_rc.vim
