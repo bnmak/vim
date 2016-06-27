@@ -1,0 +1,1 @@
+../config/nerdtree_rc.vim

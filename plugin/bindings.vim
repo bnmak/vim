@@ -23,24 +23,6 @@ nmap <leader>w :w!<cr>
 inoremap <C-a> <C-o>0
 inoremap <C-e> <C-o>$
 
-" use <Leader><Leader> to toggle zoom current window to nearly-full
-function! ToggleMaxWins()
-  if exists('g:windowMax')
-      au! maxCurrWin
-      wincmd =
-      unlet g:windowMax
-   else
-    augroup maxCurrWin
-      " au BufEnter * wincmd _ | wincmd |
-      " only max it vertically
-        au! WinEnter * wincmd _
-    augroup END
-    do maxCurrWin WinEnter
-    let g:windowMax=1
-endif
-endfunction
-nnoremap <silent> <Leader><Leader> :call ToggleMaxWins()<CR>
-
 " Enter blank line above/below while in insert mode
 nmap <F8> o<Esc>
 nmap <F9> O<Esc>
@@ -60,3 +42,10 @@ nmap <leader>h :bprevious<CR>
 
 " close the current buffer and move to the previous one
 nmap <leader>bq :bp <BAR> bd #<CR>
+
+" list buffers
+nmap <leader>bl :BufExplorerVerticalSplit<CR>
+
+" NERDTree
+
+nmap <silent> <Leader>n :NERDTreeToggle<CR>
