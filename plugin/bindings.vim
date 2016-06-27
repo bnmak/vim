@@ -48,4 +48,4 @@ nmap <leader>bl :BufExplorerVerticalSplit<CR>
 
 " NERDTree
 
-nmap <silent> <Leader>n :NERDTreeToggle<CR>
+nmap <silent> <leader>n :NERDTreeToggle<CR>
