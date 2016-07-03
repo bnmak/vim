@@ -12,10 +12,6 @@ noremap <Right> <NOP>
 inoremap <C-b> <Left>
 inoremap <C-f> <Right>
 
-" move cursor easier
-nmap <leader>e $
-nmap <leader>a ^
-
 " save faster
 nmap <leader>w :w!<cr>
 
@@ -47,5 +43,4 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 nmap <leader>bl :BufExplorerVerticalSplit<CR>
 
 " NERDTree
-
 nmap <silent> <leader>n :NERDTreeToggle<CR>
