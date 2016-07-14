@@ -29,18 +29,9 @@ noremap <silent> <Leader>vs :VimShellPop<CR>
 " buffer-related
 nmap <silent> <leader>bd :Bclose<cr>
 
-" new empty buffer
-nmap <leader>T :enew<cr>
-
 " move to the next/previous buffer
 nmap <leader>l :bnext<CR>
 nmap <leader>h :bprevious<CR>
 
 " close the current buffer and move to the previous one
 nmap <leader>bq :bp <BAR> bd #<CR>
-
-" list buffers
-nmap <leader>bl :BufExplorerVerticalSplit<CR>
-
-" NERDTree
-nmap <silent> <leader>n :NERDTreeToggle<CR>
