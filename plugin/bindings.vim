@@ -35,3 +35,7 @@ nmap <leader>h :bprevious<CR>
 
 " close the current buffer and move to the previous one
 nmap <leader>bq :bp <BAR> bd #<CR>
+
+" use ctrl-plus and ctrl-minus to resize current window
+map + <C-W>+
+map - <C-W>-
