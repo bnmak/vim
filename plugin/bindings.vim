@@ -26,7 +26,7 @@ nmap <F9> O<Esc>
 " VimShell
 noremap <silent> <Leader>vs :VimShellPop<CR>
 
-" buffer-related
+" close buffers faster
 nmap <silent> <leader>bd :Bclose<cr>
 
 " move to the next/previous buffer
