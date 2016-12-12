@@ -1,0 +1,1 @@
+/home/brian/.vim/config/vimshell_rc.vim
