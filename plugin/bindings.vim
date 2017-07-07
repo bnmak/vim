@@ -23,9 +23,6 @@ inoremap <C-e> <C-o>$
 nmap <F8> o<Esc>
 nmap <F9> O<Esc>
 
-" Shell
-noremap <silent> <Leader>vs :VimShell<CR>
-
 " close buffers faster
 nmap <silent> <leader>bd :Bclose<cr>
 
