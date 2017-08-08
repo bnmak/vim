@@ -1,5 +1,5 @@
 " remap leader
-let mapleader=','
+let g:mapleader=','
 let g:mapleader=','
 
 " disable arrow keys in normal mode
